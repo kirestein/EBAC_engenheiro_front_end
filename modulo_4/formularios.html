@@ -24,7 +24,7 @@
             <h1>Contato</h1>
             <p>Preencha os campos abaixo</p>
 
-            <form action="">
+            <form action="" method="post">
                 <div class="name">
                     <label for="nome">Nome</label> <br>
                     <input type="text" name="nome" id="nome">
@@ -33,8 +33,33 @@
                     <label for="email">E-mail</label> <br>
                     <input type="email" name="email" id="email">
                 </div>
-                <label for=""></label>
-                <input type="text" name="" id="">
+                <div class="mensagem">
+                    <label for="mensagem">Mensagem</label> <br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <div class="radio">
+                    <label for="">Qual linguagens você sabe?</label>
+                    <input type="radio" name="linguagens" value="html"> HTML
+                    <input type="radio" name="linguagens" value="css"> CSS
+                    <input type="radio" name="linguagens" value="js"> JavaScript
+                </div>
+                <div class="checkbox">
+                    <label for="">Quais linguagens  você prefere?</label>
+                    <input type="checkbox" name="linguagens" value="html"> HTML
+                    <input type="checkbox" name="linguagens" value="css"> CSS
+                    <input type="checkbox" name="linguagens" value="js"> JavaScript
+                </div>
+                <div class="select">
+                    <label for="">Qual a sua cor favorita?</label>
+                    <select name="" id="">
+                        <option value="">Azul</option>
+                        <option value="">Verde</option>
+                        <option value="">Vermelho</option>
+                    </select>
+                </div>
+                <div class="botao">
+                    <input type="submit">
+                </div>
             </form>
         </article>
     </Section>
