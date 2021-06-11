@@ -22,6 +22,10 @@ nav {
     padding: 1.25rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -33,6 +37,20 @@ article {
     width: 70%;
     background-color: #f1f1f1;
     height: auto;
+}
+
+#img-perfil {
+    display: flex;
+    justify-content: center;
+}
+
+.perfil {
+    border-radius: 50%;
+}
+
+.conteudo {
+    font-size: 2rem;
+    text-align: justify;
 }
 
 section::after {
